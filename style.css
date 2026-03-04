@@ -1,0 +1,56 @@
+.container{
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+.header{
+   flex: 20%;
+   background-color: lightgray;
+   background: url("Images/Gemini_Generated_Image_3psqbo3psqbo3psq.png") center/100% 100% ;
+   aspect-ratio: 6/1;
+}
+.menu{
+   flex: 5%;
+   background-color: darkgray;
+   display: flex;
+   align-items; center;
+}
+.menu a{
+   padding: 15px 20px;
+   color: blue;
+}
+.menu hover{
+   background-color: lightgray;
+   color: black;
+}
+.content{
+    flex: 70%;
+   background-color: white;
+}
+.content iframe{
+   flex: 1;
+   border: none;
+   width: 100%;
+   height: 100%;
+}  
+
+.footer{
+    flex: 5%;
+    background-color: lightgray;
+}
+
+
+
+h1{
+  color: red;
+}
+.tieude {
+   color: tomato;
+   font-weight: bold;
+   font-size: 20pt;
+}
+.noidung {
+  color: black;
+  font-weight: normal;
+  font-size: 14pt;
+}
